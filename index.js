@@ -10,6 +10,8 @@ const alunosRouter = require('./routes/alunos');
 app.use('/alunos', alunosRouter);
 
 // TODO: Membro 2 - Importar e mapear rota de professores
+const professoresRouter = require('./routes/professores');
+app.use('/professores', professoresRouter);
 
 
 
